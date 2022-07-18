@@ -1,0 +1,71 @@
+.proposal-details-container {
+  background-color: #f2f2f2;
+  font-family: "Gotham SSm", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  .proposal-details-container .category-font-color, .proposal-details-container .skill-font-color {
+    background-color: #f2f2f2;
+    color: #336278 !important;
+    font-size: 16px;
+    cursor: default;
+    font-weight: 200; }
+    .proposal-details-container .category-font-color:hover, .proposal-details-container .skill-font-color:hover {
+      background-color: #f2f2f2 !important; }
+    .proposal-details-container .category-font-color:active, .proposal-details-container .skill-font-color:active {
+      background-color: #1d4354 !important;
+      color: #fff !important; }
+  .proposal-details-container .color-nano {
+    color: #37a000 !important; }
+  .proposal-details-container .color-black {
+    color: #000 !important; }
+  .proposal-details-container .close-modal-btn:hover {
+    background-color: #f2f2f2 !important; }
+  .proposal-details-container .job-files {
+    cursor: pointer;
+    text-decoration: none; }
+    .proposal-details-container .job-files:hover {
+      text-decoration: underline; }
+  .proposal-details-container #proposljobfile, .proposal-details-container #proposljobfile2 {
+    text-decoration: none !important; }
+    .proposal-details-container #proposljobfile:hover, .proposal-details-container #proposljobfile2:hover {
+      text-decoration: underline !important; }
+    .proposal-details-container #proposljobfile .font-size-small, .proposal-details-container #proposljobfile2 .font-size-small {
+      font-size: 0.89em; }
+  .proposal-details-container #jobReceiveForm:hover, .proposal-details-container #jobReceiveForm:left, .proposal-details-container #jobReceiveForm:active, .proposal-details-container #jobReceiveForm:focus {
+    color: #37a000 !important;
+    box-shadow: 0px 0px 0px 0px #37a000 !important; }
+  .proposal-details-container #uploadJobFiles {
+    font-size: .9em;
+    background-color: #f7f7f8;
+    border: 2px dotted #37a000;
+    height: 6em; }
+    .proposal-details-container #uploadJobFiles div span {
+      color: #37a000; }
+      .proposal-details-container #uploadJobFiles div span:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+  .proposal-details-container #exampleFormControlTextarea1 {
+    border: 1px solid #37a000 !important;
+    box-shadow: 0px 0px 0px 0px !important; }
+    .proposal-details-container #exampleFormControlTextarea1:hover, .proposal-details-container #exampleFormControlTextarea1:left, .proposal-details-container #exampleFormControlTextarea1:active, .proposal-details-container #exampleFormControlTextarea1:focus {
+      border: 1px solid #37a000 !important;
+      box-shadow: 0px 0px 0px 0px !important; }
+  .proposal-details-container #jobFile {
+    display: none; }
+  .proposal-details-container .job-details a {
+    color: #37a000;
+    font-size: 14px;
+    font-weight: 600; }
+  .proposal-details-container .withdraw-btn {
+    color: #37a000; }
+    .proposal-details-container .withdraw-btn:hover {
+      background-color: #f2f2f2 !important;
+      color: #37a000; }
+  .proposal-details-container .receive-btn {
+    background-color: #37a000 !important; }
+  .proposal-details-container .btn-nano {
+    background-color: #37a000 !important; }
+  .proposal-details-container .payment-verified p {
+    font-size: 14px; }
+  .proposal-details-container .History p {
+    font-size: 14px; }
+
+/*# sourceMappingURL=showProposal.css.map */

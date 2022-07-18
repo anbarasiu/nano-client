@@ -1,0 +1,50 @@
+.legend-title {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.legend-title span {
+  color: gray;
+  margin-left: .3em;
+}
+
+.legend-title::after {
+  content: "";
+  border-bottom: 1px solid #cccccc;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  margin: auto;
+  margin-left: .5em;
+}
+
+.skill-item {
+  display: inline-block;
+  margin-bottom: .5em;
+  font-size: 14px;
+  padding: .3em;
+  padding-right: .7em;
+  padding-left: .7em;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #f1f2f4;
+  margin-right: .6em;
+}
+
+.skill-item:hover {
+  cursor: pointer;
+  background-color: #e3e5e9;
+}
+
+.skill-item svg {
+  font-size: 12px;
+}
+/*# sourceMappingURL=JobExpertise.css.map */

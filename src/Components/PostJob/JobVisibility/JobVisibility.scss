@@ -1,0 +1,16 @@
+@import "../../../../public/colors/colors.scss";
+
+.visibility-card {
+  height: 13em;
+  @media screen and (max-width: 1199px) {
+    height: 10em;
+  }
+}
+
+.visibility-card-2 {
+  height: 10em;
+}
+
+#numberOfFreelancersInput {
+  display: none;
+}

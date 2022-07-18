@@ -1,0 +1,69 @@
+@import '../../../public/colors/colors.scss';
+
+#header-container {
+  background-color: $secondary-color;
+}
+
+#searchBar {
+  background-color: lighten($color: $secondary-color , $amount: 5%);
+  padding-left: 1.2em;
+  border: none;
+  &::placeholder {
+    color: white;
+  }
+
+  &:focus {
+    outline: none;
+    color: white;
+  }
+}
+
+#mobile-nav-bar {
+  display: none;
+}
+
+.mobile-nav-item {
+  &:hover {
+    cursor: pointer;
+    p {
+      color: $tertiary-color;
+    }
+    svg {
+      color: $tertiary-color;
+    }
+    span {
+      color: $tertiary-color;
+    }
+  }
+}
+
+#navbar li {
+  margin-right: 1em;
+  &:hover {
+    cursor: pointer;
+    color: lighten($color: $tertiary-color, $amount: 10%);
+  }
+}
+
+#find-work {
+  color: lighten($color: $tertiary-color, $amount: 10%);
+  &:hover {
+    #sub-menu {
+      display: block !important;
+      z-index: 1;
+    }
+  }
+  & ul {
+    position: absolute;
+  }
+}
+
+.navbar-icon {
+  font-size: 1.3em;
+}
+
+.dropdown-menu-items {
+  &:focus {
+    background-color: $tertiary-color !important;
+  }
+}

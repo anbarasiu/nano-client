@@ -1,0 +1,57 @@
+@import '../../../public/colors/colors.scss';
+
+#footerContainer {
+  background-color: $footer-color;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.footerHorizontalLine {
+  border: 1px solid lighten($color: $footer-color, $amount: 5%);
+}
+
+#footerIconsRow {
+  border-top: 1px solid lighten($color: $footer-color, $amount: 5%);
+  border-bottom: 1px solid lighten($color: $footer-color, $amount: 5%);
+}
+
+.footerItems {
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+  & span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  // &:hover {
+  //   cursor: pointer;
+  //   text-decoration: underline;
+  // }
+}
+
+.FooterIconContainer {
+  margin-left: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -3px;
+  background-color: lighten($color: $footer-color, $amount: 8%);
+  font-size: 0.9em;
+  & svg {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    // left: 10%;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: lighten($color: $footer-color, $amount: 10%);
+  }
+}
+
+.mobile-app {
+  display: block;
+  width: 50%;
+  text-align: right;
+}

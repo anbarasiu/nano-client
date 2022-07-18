@@ -1,0 +1,43 @@
+@import '../../../../public/colors/colors.scss';
+
+.modalSmallTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modalSmallText {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+#editTitleSucessButton {
+  background-color: $tertiary-color;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none;
+  &:hover {
+    color: white;
+    background-color: darken($color: $tertiary-color, $amount: 8%);
+  }
+}
+
+#editTitleExitButton {
+  color: lighten($color: $tertiary-color, $amount: 5%);
+  font-weight: bold;
+  &:hover {
+    color: darken($color: $tertiary-color, $amount: 5%);
+  }
+}
+
+.editTitleInput {
+  border: 1px solid lightslategray;
+  &:hover {
+    border: 1px solid $tertiary-color;
+  }
+  &:focus {
+    border: 1px solid $tertiary-color !important;
+    outline: none;
+  }
+}

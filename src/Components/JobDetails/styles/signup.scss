@@ -1,0 +1,98 @@
+@import '../../public/colors/colors.scss';
+.signup{
+    // font-family: 'Noto Sans', sans-serif;
+    font-family: "Gotham SSm", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: $secondary-color;
+    // font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+    //--font-family-rebrand: "Canela Deck Bold";
+    .secondColor {
+        color: $tertiary-color;
+    }
+    .secondBackgroundColor{
+        background-color: $tertiary-color;
+    }
+    .head-font{
+        color: #000F12;
+    }
+    .btn{
+        font-size: 17px!important;
+    }
+    .google-btn{
+        position: relative;
+        .google-button{
+            background-color: #4285F4!important;
+            &:active{
+                background-color: #356AD9!important;
+            }
+        } 
+        .google-icon{
+            position: absolute;
+            left: 1px;
+            bottom:1px;
+            top: 1px;
+            background-color:#fff
+        }
+    }
+    .or{
+        position: relative;
+        &::after{
+            position: absolute;
+            content:"";
+            width: 200px;
+            height: 1px;
+            top: 50%;
+            left: 55%;
+            background-color: #e0e0e0;
+        }
+        &::before{
+            position: absolute;
+            content:"";
+            width: 200px;
+            height: 1px;
+            top: 50%;
+            right: 55%;
+            background-color: #e0e0e0;
+        }
+    }
+    .apple-button{
+        border-color: #343a40;
+        color: #343a40;
+        &:hover{
+            background-color: #fff!important;
+            color: #343a40;
+        }
+        &:active{
+            box-shadow: inset -2px -2px 10px #343a40;
+        }
+    }
+    .input{
+        position: relative;
+        & input[type="email"]{
+            padding-left: 60px;
+            &:hover,&:active,&:focus{
+                border-color: $tertiary-color!important;
+                box-shadow: none!important;
+            }
+        }
+        & .msg-icon{
+            position: absolute;
+            top:0;
+            left: 20px;
+            bottom: 0;
+        }
+    }
+    .continue-button{
+        background-color: $tertiary-color;
+    }
+    .companies{
+        background-color:#fff;
+        color: #000F12;
+    }
+    .about{
+        background-color: #F9F9F9;
+        color: #000F12;
+    }
+    .signup-footer{
+        background-color:$footer-color;
+    }
+}

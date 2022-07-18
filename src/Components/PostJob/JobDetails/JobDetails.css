@@ -1,0 +1,78 @@
+.project-type-card {
+  border: 1px solid #cccccc;
+}
+
+.project-type-card .project-card-title {
+  font-size: .9em;
+  font-weight: 600;
+}
+
+.project-type-card .project-card-text {
+  font-size: .9em;
+  font-weight: 300;
+}
+
+.project-type-card:hover {
+  background-color: #f1f2f4;
+  cursor: pointer;
+}
+
+.project-type-card-selected {
+  background-color: #f1f2f4;
+  cursor: pointer;
+}
+
+#screening-questions {
+  margin-top: 1em;
+  font-weight: 700;
+}
+
+#screening-questions span {
+  color: gray;
+}
+
+#add-screening-question svg {
+  color: #37a000;
+}
+
+#add-screening-question span {
+  font-weight: 700;
+  color: #37a000;
+}
+
+#add-screening-question span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#add-btn-disabled {
+  color: gray;
+  cursor: default;
+}
+
+.close-question {
+  position: absolute;
+}
+
+.close-question:hover {
+  cursor: pointer;
+}
+
+.close-question svg {
+  position: relative;
+  color: #37a000;
+}
+
+.nano-input {
+  border: 1px solid #cccccc;
+}
+
+.nano-input:hover {
+  border: 1px solid #37a000;
+}
+
+.nano-input:focus {
+  outline: none;
+  border: 1px solid #37a000;
+}
+/*# sourceMappingURL=JobDetails.css.map */

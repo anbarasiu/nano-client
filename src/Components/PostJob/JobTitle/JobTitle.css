@@ -1,0 +1,83 @@
+.borderBottomPrimary {
+  border-bottom: 1px solid #f1f2f4;
+}
+
+#jobTitleExamples {
+  font-size: .9em;
+}
+
+#exitBtn {
+  border: 1px solid #e3e5e9;
+  color: #37a000;
+  font-weight: bold;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-top: .6em;
+  padding-bottom: .6em;
+}
+
+#exitBtn:hover {
+  color: #2e8700;
+  background-color: #f1f2f4;
+}
+
+@media screen and (max-width: 768px) {
+  #exitBtn {
+    width: 50%;
+  }
+}
+
+#nextBtn {
+  background-color: #37a000;
+  color: white;
+  font-weight: bold;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-top: .6em;
+  padding-bottom: .6em;
+}
+
+#nextBtn:hover {
+  color: white;
+  background-color: #2e8700;
+}
+
+@media screen and (max-width: 768px) {
+  #nextBtn {
+    width: 50%;
+  }
+}
+
+#nextBtnDisabled {
+  background-color: #e3e5e9;
+  color: gray;
+  font-weight: bold;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-top: .6em;
+  padding-bottom: .6em;
+}
+
+#nextBtnDisabled:hover {
+  cursor: unset;
+}
+
+@media screen and (max-width: 768px) {
+  #nextBtnDisabled {
+    width: 50%;
+  }
+}
+
+.jobTitleInput {
+  border: 1px solid;
+}
+
+.jobTitleInput:hover {
+  border: 1px solid #37a000;
+}
+
+.jobTitleInput:focus {
+  outline: none;
+  border: 1px solid #37a000;
+}
+/*# sourceMappingURL=JobTitle.css.map */

@@ -1,0 +1,140 @@
+.signup {
+  font-family: "Gotham SSm", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #1d4354;
+}
+@media screen and (max-width: 1000px) {
+  .signup .navbar-brand {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .signup .about-details h5 {
+    font-size: 22px;
+  }
+  .signup .about-details p {
+    font-size: 14px;
+  }
+}
+.signup .secondColor {
+  color: #37a000;
+}
+.signup .secondBackgroundColor {
+  background-color: #37a000;
+}
+.signup .head-font {
+  color: #000F12;
+}
+.signup .btn {
+  font-size: 17px !important;
+}
+.signup .google-btn {
+  position: relative;
+}
+.signup .google-btn .google-button {
+  background-color: #4285F4 !important;
+}
+.signup .google-btn .google-button:active {
+  background-color: #356AD9 !important;
+}
+.signup .google-btn .google-icon {
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+  top: 1px;
+  background-color: #fff;
+}
+.signup .or {
+  position: relative;
+}
+.signup .or::after {
+  position: absolute;
+  content: "";
+  width: 190px;
+  height: 1px;
+  top: 50%;
+  left: 55%;
+  background-color: #e0e0e0;
+}
+.signup .or::before {
+  position: absolute;
+  content: "";
+  width: 190px;
+  height: 1px;
+  top: 50%;
+  right: 55%;
+  background-color: #e0e0e0;
+}
+.signup .apple-button {
+  border-color: #343a40;
+  color: #343a40;
+}
+.signup .apple-button:hover {
+  background-color: #fff !important;
+  color: #343a40;
+}
+.signup .apple-button:active {
+  box-shadow: inset -2px -2px 10px #343a40;
+}
+.signup .input {
+  position: relative;
+}
+.signup .input input[type=email] {
+  padding-left: 60px;
+  height: 100%;
+}
+.signup .input input[type=email]:hover, .signup .input input[type=email]:active, .signup .input input[type=email]:focus {
+  border-color: #37a000 !important;
+  box-shadow: none !important;
+}
+.signup .input .msg-icon {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+.signup .second-form-input {
+  position: relative;
+}
+.signup .second-form-input input {
+  padding: 10px 50px 10px 50px;
+  height: 100%;
+}
+.signup .second-form-input input:hover, .signup .second-form-input input:active, .signup .second-form-input input:focus {
+  border-color: #37a000 !important;
+  box-shadow: none !important;
+}
+.signup .second-form-input .icon {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+.signup .second-form-input3 select:hover, .signup .second-form-input3 select:active, .signup .second-form-input3 select:focus {
+  border-color: #37a000 !important;
+  box-shadow: none !important;
+}
+.signup .second-form-input3 select option:hover, .signup .second-form-input3 select option:active, .signup .second-form-input3 select option:focus {
+  border-left: solid 3px #37a000 !important;
+  background-color: #37a000 !important;
+  box-shadow: none !important;
+}
+.signup .form-check {
+  text-align: left;
+}
+.signup .continue-button, .signup .submit-button {
+  background-color: #37a000;
+}
+.signup .user-type:hover, .signup .user-type:focus, .signup .user-type:active {
+  background-color: #37a000;
+}
+.signup .companies {
+  background-color: #fff;
+  color: #000F12;
+}
+.signup .about {
+  background-color: #F9F9F9;
+  color: #000F12;
+}
+.signup .signup-footer {
+  background-color: #1d4354;
+}
+
+/*# sourceMappingURL=signup.css.map */

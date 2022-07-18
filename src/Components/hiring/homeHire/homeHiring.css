@@ -1,0 +1,58 @@
+.header-hiring-allPosting{
+    font-size: 0.9em;
+    color: #37A000;
+    font-weight: 500;
+}
+.header-hiring-allPosting:hover{
+    color: #008329;
+}
+.posting-hiring-home{
+    border: 1px #E0E0E0 solid;
+    border-radius: 5px 5px 0px 0px;
+    background-color: white;
+    padding: 3vh 2vw;
+    margin-top: 6vh;
+}
+.ellipsish-hiring-header{
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+.posting-hire-home{
+    border: 1px #E0E0E0 solid;
+    /* border-radius: 5px 5px 0px 0px; */
+    background-color: white;
+    padding: 3vh 2vw;
+    cursor: pointer;
+}
+.posting-hire-home:hover{
+    background-color: #F9F9F9;
+}
+.edit-font-small{
+    font-size: 0.8em;
+}
+.edit-font-medium{
+    font-size: 0.85em;
+}
+.edit-font-mediumplus{
+    font-size: 0.9em;
+}
+.help-one-text{
+    line-height: 18px;
+}
+.help-one-link{
+    color: #37A000;
+}
+.help-one-link:hover{
+    color: #008329;
+}
+.help-box-size{
+    height: 28vh;
+}
+.question-boarder{
+    border-radius: 0px 0px 5px 5px;
+}
+.d-flex.justify-content-between.posting-hiring-home.m-0.mt-5 svg{
+    cursor: pointer;
+}

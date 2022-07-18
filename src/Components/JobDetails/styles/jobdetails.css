@@ -1,0 +1,26 @@
+.Job-container{
+  background:#f9f9f9;
+    font-family: "Gotham SSm", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    box-sizing: border-box;
+
+} 
+
+.btn1{
+  width: 80%;
+  margin: 15px;
+  float: right;
+} 
+
+.color-black{
+  color: black;
+}
+.color-green{
+  color:#37a000;
+}
+.job-page-skill{
+ color:#1d4354 ; 
+ font-size: 18px;
+}
+.submit-proposal-btn{
+  background-color: #37a000 !important ;
+}

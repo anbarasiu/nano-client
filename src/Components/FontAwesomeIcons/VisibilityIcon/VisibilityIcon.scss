@@ -1,0 +1,13 @@
+#userChildOfSearch {
+  position: absolute;
+  top: 0;
+  & svg {
+    font-size: 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 3px;
+    background-color: black;
+    color: white;
+  }
+}

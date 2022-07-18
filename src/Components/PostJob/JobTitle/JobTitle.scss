@@ -1,0 +1,71 @@
+@import "../../../../public/colors/colors.scss";
+
+.borderBottomPrimary {
+  border-bottom: 1px solid $primary-color;
+}
+
+#jobTitleExamples {
+  font-size: .9em;
+}
+
+#exitBtn {
+  border: 1px solid darken($color: $primary-color, $amount: 5%);
+  color: $tertiary-color;
+  font-weight: bold;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-top: .6em;
+  padding-bottom: .6em;
+  &:hover {
+    color: darken($color: $tertiary-color, $amount: 5%);
+    background-color: $primary-color;
+  }
+  @media screen and (max-width: 768px) {
+    width: 50%; 
+  }
+}
+
+#nextBtn {
+  // border: 1px solid darken($color: $primary-color, $amount: 5%);
+  background-color: $tertiary-color;
+  color: white;
+  font-weight: bold;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-top: .6em;
+  padding-bottom: .6em;
+  &:hover {
+    color: white;
+    background-color: darken($color: $tertiary-color, $amount: 5%);
+  }
+  @media screen and (max-width: 768px) {
+    width: 50%; 
+  }
+}
+
+#nextBtnDisabled {
+  background-color: darken($color: $primary-color, $amount: 5%);
+  color: lighten($color: black, $amount: 50%);
+  font-weight: bold;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-top: .6em;
+  padding-bottom: .6em;
+  &:hover {
+    cursor:unset
+  }
+  @media screen and (max-width: 768px) {
+    width: 50%; 
+  }
+}
+
+.jobTitleInput {
+  border: 1px solid;
+  &:hover {
+    border: 1px solid $tertiary-color;
+  }
+  &:focus {
+    outline: none;
+    border: 1px solid $tertiary-color;
+  }
+}

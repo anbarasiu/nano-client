@@ -1,0 +1,81 @@
+#header-container {
+  background-color: #1d4354;
+}
+
+#searchBar {
+  background-color: #245267;
+  padding-left: 1.2em;
+  border: none;
+}
+
+#searchBar::-webkit-input-placeholder {
+  color: white;
+}
+
+#searchBar:-ms-input-placeholder {
+  color: white;
+}
+
+#searchBar::-ms-input-placeholder {
+  color: white;
+}
+
+#searchBar::placeholder {
+  color: white;
+}
+
+#searchBar:focus {
+  outline: none;
+  color: white;
+}
+
+#mobile-nav-bar {
+  display: none;
+}
+
+.mobile-nav-item:hover {
+  cursor: pointer;
+}
+
+.mobile-nav-item:hover p {
+  color: #37a000;
+}
+
+.mobile-nav-item:hover svg {
+  color: #37a000;
+}
+
+.mobile-nav-item:hover span {
+  color: #37a000;
+}
+
+#navbar li {
+  margin-right: 1em;
+}
+
+#navbar li:hover {
+  cursor: pointer;
+  color: #49d300;
+}
+
+#find-work {
+  color: #49d300;
+}
+
+#find-work:hover #sub-menu {
+  display: block !important;
+  z-index: 1;
+}
+
+#find-work ul {
+  position: absolute;
+}
+
+.navbar-icon {
+  font-size: 1.3em;
+}
+
+.dropdown-menu-items:focus {
+  background-color: #37a000 !important;
+}
+/*# sourceMappingURL=Header.css.map */

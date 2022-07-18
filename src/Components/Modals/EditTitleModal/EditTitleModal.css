@@ -1,0 +1,47 @@
+.modalSmallTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modalSmallText {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+#editTitleSucessButton {
+  background-color: #37a000;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#editTitleSucessButton:hover {
+  color: white;
+  background-color: #297700;
+}
+
+#editTitleExitButton {
+  color: #40ba00;
+  font-weight: bold;
+}
+
+#editTitleExitButton:hover {
+  color: #2e8700;
+}
+
+.editTitleInput {
+  border: 1px solid lightslategray;
+}
+
+.editTitleInput:hover {
+  border: 1px solid #37a000;
+}
+
+.editTitleInput:focus {
+  border: 1px solid #37a000 !important;
+  outline: none;
+}
+/*# sourceMappingURL=EditTitleModal.css.map */

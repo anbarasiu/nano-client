@@ -1,0 +1,40 @@
+@import './../../../../public/colors/colors.scss';
+.all-error-page{
+    font-family: "Gotham SSm",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    height: 100vh;
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .error-component {
+        position: absolute;
+        .error-msg {
+            h1{
+                color: #656565;
+                font-size: 1.8em;
+                @media screen and (max-width: 768px) {
+                    font-size:1.5em;
+                }
+            }
+            p{
+                color: #656565;
+                font-weight: 500;
+                font-size: 0.9em;
+                //font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+                letter-spacing: 1px;
+                font-weight: 500;
+            }
+            span{
+                color: $tertiary-color!important;
+                &.return-home:hover{
+                    text-decoration: underline!important;
+                    border-bottom-color: $tertiary-color!important;
+                }
+            }
+            a:hover{
+                border-bottom-color: $tertiary-color!important;
+            }
+        }
+    }
+}

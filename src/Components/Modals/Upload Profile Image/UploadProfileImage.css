@@ -1,0 +1,46 @@
+#previewImage {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 3px dotted #37a000;
+}
+
+#previewImage div {
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#uploadFileInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 125px;
+  opacity: 100;
+}
+
+#confirmUploadBtn {
+  background-color: #37a000;
+  color: white;
+  font-weight: bold;
+}
+
+#attachPhotoBtn {
+  background-color: #37a000;
+  color: white;
+  font-weight: bold;
+}
+
+#exitModal {
+  color: #37a000;
+  font-weight: bold;
+}
+
+#exitModal:hover {
+  color: #2e8700;
+}
+/*# sourceMappingURL=UploadProfileImage.css.map */

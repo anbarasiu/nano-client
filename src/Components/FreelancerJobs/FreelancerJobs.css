@@ -1,0 +1,34 @@
+#freelancer-jobs-body {
+  background-color: #f1f2f4;
+}
+
+#active-contracts-title {
+  border-bottom: 1px solid #cccccc;
+}
+
+#start-searching {
+  color: #37a000;
+}
+
+#start-searching:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#jobs-container {
+  border: 1px solid #cccccc;
+}
+
+.one-job-container {
+  border-bottom: 1px solid #cccccc;
+}
+
+.one-job-container:hover {
+  background-color: #fafafb;
+  cursor: pointer;
+}
+
+.text-tertiary {
+  color: #37a000;
+}
+/*# sourceMappingURL=FreelancerJobs.css.map */

@@ -1,0 +1,33 @@
+@import "../../../public/colors/colors.scss";
+
+#freelancer-jobs-body {
+  background-color: $primary-color;
+}
+
+#active-contracts-title {
+  border-bottom: 1px solid lighten($color: black, $amount: 80%);
+}
+
+#start-searching {
+  color: $tertiary-color;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+#jobs-container {
+  border: 1px solid lighten($color: black, $amount: 80%);
+}
+
+.one-job-container {
+  border-bottom: 1px solid lighten($color: black, $amount: 80%);
+  &:hover {
+    background-color: lighten($color: $primary-color, $amount: 3%);
+    cursor: pointer;
+  }
+}
+
+.text-tertiary {
+  color: $tertiary-color;
+}

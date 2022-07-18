@@ -1,0 +1,144 @@
+
+.signin {
+  font-family: "Gotham SSm", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #1d4354; }
+  .signin .secondColor {
+    color: #37a000; }
+  .signin .secondBackgroundColor {
+    background-color: #37a000; }
+  .signin .head-font {
+    color: #000F12; }
+  .signin .btn {
+    font-size: 17px !important; }
+  .signin .google-btn {
+    position: relative; }
+    .signin .google-btn .google-button {
+      background-color: #4285F4 !important; }
+      .signin .google-btn .google-button:active {
+        background-color: #356AD9 !important; }
+    .signin .google-btn .google-icon {
+      position: absolute;
+      left: 1px;
+      bottom: 1px;
+      top: 1px;
+      background-color: #fff; }
+  .signin .or {
+    position: relative; }
+    .signin .or::after {
+      position: absolute;
+      content: "";
+      width: 200px;
+      height: 1px;
+      top: 50%;
+      left: 55%;
+      background-color: #e0e0e0; }
+    .signin .or::before {
+      position: absolute;
+      content: "";
+      width: 200px;
+      height: 1px;
+      top: 50%;
+      right: 55%;
+      background-color: #e0e0e0; }
+  .signin .apple-button {
+    border-color: #343a40;
+    color: #343a40; }
+    .signin .apple-button:hover {
+      background-color: #fff !important;
+      color: #343a40; }
+    .signin .apple-button:active {
+      box-shadow: inset -2px -2px 10px #343a40; }
+  .signin .input {
+    position: relative; }
+    .signin .input input[type="text"] {
+      padding-left: 60px; }
+      .signin .input input[type="text"]:hover, .signin .input input[type="text"]:active, .signin .input input[type="text"]:focus {
+        border-color: #37a000 !important;
+        box-shadow: none !important; }
+
+        .signin .input input[type="password"] {
+          padding-left: 60px; }
+          .signin .input input[type="password"]:hover, .signin .input input[type="password"]:active, .signin .input input[type="password"]:focus {
+            border-color: #37a000 !important;
+            box-shadow: none !important; }
+    .signin .input .msg-icon {
+      position: absolute;
+      top: 0;
+      left: 20px;
+      bottom: 0; }
+  .signin .continue-button {
+    background-color: #37a000; }
+  .signin .signin-footer {
+    background-color: #1d4354; }
+    .signin .new {
+      position: relative; }
+      .signin .new::after {
+        position: absolute;
+        content: "";
+        width: 150px;
+        height: 1px;
+        top: 50%;
+        left: 70%;
+        background-color: #e0e0e0; }
+      .signin .new::before {
+        position: absolute;
+        content: "";
+        width: 150px;
+        height: 1px;
+        top: 50%;
+        right: 70%;
+        background-color: #e0e0e0; }
+
+        .form-check
+        {
+          float: left;
+        }
+        #signup {
+          text-align: center;
+          align-content: center;
+        }
+        #signup #anchor{
+          color:#050c01;
+
+        }
+           
+      
+      #forgot-password {
+          color:#37a000;
+          text-decoration: none;
+          font-weight: 500;
+          float: right;
+
+      }
+      #error{
+        display: none;
+      }
+      
+      .alert-box {
+        color:#555;
+        font-family:Tahoma, Geneva, Arial, sans-serif;
+        font-size:11px;
+        padding:10px 36px;
+        margin:10px;
+        color:#fff;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        border-radius: 5px;
+    }
+    .alert-box span {
+        font-weight:bold;
+        text-transform:uppercase;
+        letter-spacing: 1px;
+    }
+    .error {
+        background:#e47c68 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC3UlEQVR4Xm2RX0iTXQDGn1c3N2uzbUwvwrpww9jcRW5qlvLdqNCHeKUGaxd+qFdeBUEiSYYYKJ9/SnCwm9puhjGD11ARTOFTIckMW15JGJVDy/xE9y7d9r7ndHZgMsQfPBfnvM/z8PIcnOW/7u6/t/4d9EcGh/27T0f9u89G/ZGhYf+XoSH/cnd3I84gIIMJt7vBeckQUtbWNFAIQCkoE0AAQYCmvFz+GI22zBqNQa/XyzOqdNhbU9Ngk+XQ8aSoobKM80js7KiKq6oCe5ubYATByAKj02ptKCUkRBYXNSeKgi9GIyjAleabyYRj9k1eWlJdTyQCj4uL7yJFk91+e9JecrJeUEDf5efT5UeP6PHREZ2rr6dhdk5pvq6OSvv7dHVkhK6y8wbTnM2WbHU47uC+zeZfY6YPZjN939hICSGUwUvesJL52loeTvOpre20uMdiEbPI4RFYBAoYi4vYCwTASpBz8SJuBYO4MT6OXIOB3/0/MQFlairl58qOxaCiiszDAsBX//rgAWRm1jc38w2gViMmSTiensb2vXsAIenn4yUqWZZBBAECtwvcsPr8OUoqK6HR6bhZjscRZneXFQUC86ZJUEB1QgHCw+AlEasVRQMDSL1GIhrl709Y8GpfHz53duLqxsZpSZwSZEmaHBCA68higbmnByeUIsrC6pUVqObnIUkx/E4mkf/wIQ4dDvDNUp7sbGRtm0yv17XaJAGQd3AAQyIBKSrBEA7jR1cXfvb24tLKW8TYYHmsxMg8CoDNCxfIlsEg8u2qTCZ3q14fKJIktdpshpENuOfzpQfjv2xub4c0M4N4JILvOh0JxGIdcbvdxws8Hg9+LSy4Pbm5gSuHh2qcD1/+h15PXsbjHerqat/LUAgCMvirsND9j1YbuJYqoZQPmMk2C79IJjtcHo/vSX8/zqXO6WoauFEp+ktLxSmXS5wtKxNfOZ2ir6JC9Ny82eIdG0MmfwCjX3/U2vu6zQAAAABJRU5ErkJggg==) no-repeat 10px 50%;
+        border:1px solid #d46c57;
+    }
+    .error:hover {  background-color: #d46c57; }
+ 
+
+    
+
+/*# sourceMappingURL=signin.css.map */
+

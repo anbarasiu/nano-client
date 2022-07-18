@@ -1,0 +1,48 @@
+@import '../../../../public/colors/colors.scss';
+
+#uploadProfileImage {
+  // max-width: 80%;
+}
+
+#previewImage {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 3px dotted $tertiary-color;
+  & div {
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+#uploadFileInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 125px;
+  opacity: 100;
+}
+
+#confirmUploadBtn {
+  background-color: $tertiary-color;
+  color: white;
+  font-weight: bold;
+}
+
+#attachPhotoBtn {
+  background-color: $tertiary-color;
+  color: white;
+  font-weight: bold;
+}
+
+#exitModal {
+  color: $tertiary-color;
+  font-weight: bold;
+  &:hover {
+    color: darken($color: $tertiary-color, $amount: 5%);
+  }
+}

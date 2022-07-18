@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mBAAmB,CAAC;EAClB,IAAI,EAAE,IAAI;EACV,GAAG,EAAE,IAAI;CAIV;;AAND,AAGE,mBAHiB,CAGjB,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;CACZ;;AAGH,iCAAiC;AACjC,AAAA,KAAK,AAAA,2BAA2B;AAChC,KAAK,AAAA,2BAA2B,CAAC;EAC/B,kBAAkB,EAAE,IAAI;EACxB,MAAM,EAAE,CAAC;CACV;;AAED,aAAa;AACb,AAAA,KAAK,CAAA,AAAA,IAAC,CAAD,MAAC,AAAA,EAAa;EACjB,eAAe,EAAE,SAAS;CAC3B",
+    "sources": [
+        "JobBudget.scss",
+        "../../../../public/colors/colors.scss"
+    ],
+    "names": [],
+    "file": "JobBudget.css"
+}

@@ -1,0 +1,34 @@
+@import '../../../../public/colors/colors.scss';
+
+.modal .modal-dialog {
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.positionDollarSign {
+  display: inline-block;
+  position: absolute;
+  top: .9em;
+  left: 1em;
+}
+
+#exitHourlyRateModal {
+  color: lighten($color: $tertiary-color, $amount: 5%);
+  font-weight: bold;
+  &:hover {
+    color: darken($color: $tertiary-color, $amount: 5%);
+  }
+}
+
+#editHourlyRateModal {
+  background-color: $tertiary-color;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none;
+  &:hover {
+    color: white;
+    background-color: darken($color: $tertiary-color, $amount: 8%);
+  }
+}

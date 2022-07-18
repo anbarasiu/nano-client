@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+  .modal .modal-dialog {
+    width: 100%;
+  }
+}
+
+.positionDollarSign {
+  display: inline-block;
+  position: absolute;
+  top: .9em;
+  left: 1em;
+}
+
+#exitHourlyRateModal {
+  color: #40ba00;
+  font-weight: bold;
+}
+
+#exitHourlyRateModal:hover {
+  color: #2e8700;
+}
+
+#editHourlyRateModal {
+  background-color: #37a000;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#editHourlyRateModal:hover {
+  color: white;
+  background-color: #297700;
+}
+/*# sourceMappingURL=EditHourlyRate.css.map */

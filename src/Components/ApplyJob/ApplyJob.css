@@ -1,0 +1,66 @@
+.green-color{
+    color: #37A000;
+}
+.div-border{
+    border-right: #E0E0E0 1px solid;
+    height: 100%;
+}
+.skills-border{
+    border-top: 1px solid #E0E0E0;
+    margin-top: 20px;
+    padding-top: 4vh;
+}
+.input-proposal{
+    padding: 1vh 1vw;
+}
+.box-border{
+    padding: 4vh 0vw;
+    border-top: 1px solid;
+}
+.protection{
+    width: 150px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    height: 35vh;
+}
+.upload{
+    text-align: center;
+    padding: 4vh 1vw;
+    border: 2px dashed #37A000;
+    background-color: #F9F9F9;
+}
+.footer-proposal-page{
+    padding: 5vh 2vw;
+}
+.footer-proposal-page .submit{
+    background-color: #2d7f02;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    padding: 8px 23px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.footer-proposal-page .cancel{
+    background-color: white;
+    color: #2d7f02;
+    border-radius: 4px;
+    border: 0px;
+    padding: 8px 23px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.div-addtional{
+    border-radius: 5px !important;
+}
+.div-addtional p{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.div-addtional select{
+    padding: 1vh 1vw;
+    border: 1px solid;
+    border-radius: 5px;
+}

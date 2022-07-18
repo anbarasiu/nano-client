@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,iBAAiB,CAAC;EAChB,gBAAgB,ECHF,OAAO;CDItB",
+    "sources": [
+        "JobPost.scss",
+        "../../../../public/colors/colors.scss"
+    ],
+    "names": [],
+    "file": "JobPost.css"
+}
